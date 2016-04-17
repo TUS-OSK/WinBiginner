@@ -45,7 +45,7 @@ namespace WinBiginner
             /*-------------------------------------------------*/
 
             //4 ファイル操作
-            // ディレクトリの指定
+            // ファイルパスの指定
             string path = @"C:\Users\\Desktop\test.txt";
             // test.txt ファイルを作成
             Stream stream = File.Create(path);
